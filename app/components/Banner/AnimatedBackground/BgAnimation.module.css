@@ -1,0 +1,135 @@
+@keyframes reactAnimation {
+    0% {
+        transform: rotate(0deg) translateX(350px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translateX(350px) rotate(-360deg);
+    }
+}
+
+.reactIcon {
+    position: absolute;
+    animation-name: reactAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: 50vh;
+    left: 50vw;
+}
+
+@keyframes tailwindAnimation {
+    0% {
+        left: -10%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.tailwindIcon {
+    position: absolute;
+    top: 1vh;
+    animation-name: tailwindAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes javascriptAnimation {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -10%;
+    }
+}
+
+.javascriptIcon {
+    position: absolute;
+    animation-name: javascriptAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: 20vh;
+}
+
+@keyframes firebaseAnimation {
+    0% {
+        left: -10%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.firebaseIcon {
+    position: absolute;
+    animation-name: firebaseAnimation;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: 40vh;
+}
+
+@keyframes cssAnimation {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -10%;
+    }
+}
+
+.cssIcon {
+    position: absolute;
+    animation-name: cssAnimation;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: 40vh;
+}
+
+@keyframes mongoDBAnimation {
+    0% {
+        left: -10%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.mongodbIcon {
+    position: absolute;
+    animation-name: mongoDBAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: 60vh;
+}
+
+@keyframes nodejsAnimation {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -10%;
+    }
+}
+
+.nodejsIcon {
+    position: absolute;
+    animation-name: nodejsAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: 80vh;
+}
